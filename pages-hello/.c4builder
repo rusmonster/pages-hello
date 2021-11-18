@@ -4,11 +4,11 @@
 	"homepageName": "Overview",
 	"rootFolder": "src",
 	"distFolder": "docs",
-	"generateMD": false,
+	"generateMD": true,
 	"generatePDF": false,
 	"generateCompleteMD": false,
 	"generateCompletePDF": false,
-	"generateWEB": true,
+	"generateWEB": false,
 	"webTheme": "//unpkg.com/docsify/lib/themes/vue.css",
 	"repoUrl": "",
 	"docsifyTemplate": "",
@@ -21,5 +21,7 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true
+	"hasRun": true,
+	"includeNavigation": false,
+	"includeTableOfContents": true
 }
